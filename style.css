@@ -1,0 +1,291 @@
+body {
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 641px) {
+    .mobile {
+        display: none;
+    }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.container p {
+    font-size: 1.5rem;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.logo {
+    height: 2rem;
+}
+
+.container li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.container li a {
+    text-decoration: none;
+    color:black
+}
+
+.flex1 {
+    display:flex;
+    align-content: center;  
+    align-items: center;
+    background-color: #d8d8d8; 
+    width: 100%
+}
+.pic1{
+    padding: 2rem 1.5rem;
+    width: 60%;
+}
+
+
+.flex-word1 h1 {
+    font-size: 3rem;
+}
+
+.flex-word1 p {
+    font-size: 2rem;
+}
+
+.white-text  {
+    color: aliceblue;
+    background-color: #4a4a4a;
+    text-align: center;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+.grid1 {
+    display:flex;
+    width: 100%;
+    background-color: #f3f5f5;
+    padding-bottom: 2rem;
+}
+
+.grid-pic1  {
+    width: 60%;
+    padding: 2rem 1.5rem;
+}
+
+.random {
+    quotes: initial;
+}
+
+.pic2 {
+    width: 100%;
+    
+}
+.grit-pic3 {
+    width: 40%;
+}
+.grid-pic2  {
+    display: flex;
+    align-content: center;  
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.grid-pic2 .pic3 {
+    width: 35%;
+    height: auto;
+}
+
+.word1 {
+    width: 65%;
+    padding-left: 1.5rem;
+}
+
+.grid2 {
+    background-color: #eaebec;
+    width: 100%;
+}
+
+.grid2 h1 {
+    text-align: center;
+    padding-top: 2rem;
+    margin: 0;
+}
+.all-pic {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem 4.5rem;
+    width: 100%;
+}
+
+.box1 {
+    width: 30%;
+    
+}
+.pic4 { 
+    width: 90%;
+}
+.word2 {
+    padding: 1rem 1rem 1.5rem;
+    padding-right: auto;
+}
+
+.grid3 {
+    background-color: #f3f5f5;
+}
+
+.big-grid {
+    display: flex;
+    align-items: center;
+}
+
+.grid3 h1 {
+    text-align: center;
+    padding-top: 2rem;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.grid-video {
+    width: 60%;
+    padding: 1.5rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.grid-pic5 {
+    display: flex;
+    width: 100%;
+
+}
+
+.grid-pic5 .pic5 {
+    width: 35%;
+    height: auto;
+    margin: 1rem;
+}
+
+.pic-text2 {
+    width: 40%;
+}
+
+.grid-video p {
+    padding-top: 0.5rem;
+    margin: 0;
+}
+
+.grid-video h2 {
+    padding-top: 1.5rem;
+    margin: 0;
+}
+
+footer {
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    border-top: silver solid 1px;
+    padding-bottom: 2.5rem;
+}
+
+footer p {
+    margin: 0;
+}
+}
+@media only screen and (max-width: 640px) {
+    .desktop {
+        display: none;
+    }
+    body{
+        font-size: 1.5rem;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 4rem;
+    }
+
+    .flex1{
+        background-color: #dbdbdb;
+    }
+
+    .pic1{
+        width: 100%;
+    }
+
+    .flex-word1 {
+        font-size: 1.5rem;
+        padding: 0 1rem 2rem;
+    }
+    
+    .white-text  {
+        color: aliceblue;
+        background-color: #9b9b9b;
+        text-align: center;
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .grid-pic3{
+        padding: 1rem 1rem 0;
+        background-color: #f3f5f5;
+        
+    }
+
+    .pic3 {
+        width: 100%;
+    }
+
+    .word1{
+        padding: 1rem 0 4rem 1rem;
+    }
+
+    .grid2{
+        background-color: #f5f4f5;
+        padding: 2rem 1rem;
+        
+    }
+
+    .grid2 h1{
+        text-align: center;
+        margin: 0;
+        padding-bottom: 0.5rem;
+    }
+
+    .box1 h2{
+        background-color: #d8d8d8;
+        padding: 1rem 0 1.5rem 1rem ;
+        margin: 0.5rem auto;
+    }
+
+    .grid3 {
+        background-color: #f3f5f5;
+        padding-top: 2rem;
+        
+        margin: 0;
+        
+    }
+
+    .grid3 h1{
+       margin: 0;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    video{
+        width: 100%;
+        padding-bottom: 1.5rem;
+    }
+
+    .grid3 p {
+        margin: 0;
+        padding: 1rem 0 1rem 1.5rem;
+    }
+}
